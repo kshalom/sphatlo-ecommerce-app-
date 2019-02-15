@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="container">
+		<form action="UserControllerServlet" method="GET">
+		
+		<input type="hidden" name="command" value="ADD" />
+		
+			<table>
+				<tbody>
+					<tr>
+						<td><label>Name</label></td>
+						<td><input type="text" name="name" /></td>
+					</tr>
+					<tr>
+						<td><label>Surname</label></td>
+						<td><input type="text" name="surname" /></td>
+					</tr>
+					<tr>
+						<td><label>Gender</label></td>
+						<td><select name="gender">
+								<option value="Male">Male</option>
+								<option value="Female">Female</option>
+							</select>					
+						</td>
+					</tr>
+					<tr>
+						<td><label>Mobile</label></td>
+						<td><input type="text" name="mobile" /></td>
+					</tr>
+					<tr>
+						<td><label>Email</label></td>
+						<td><input type="text" name="email" /></td>
+					</tr>
+					<tr>
+						<td><label>Password</label></td>
+						<td><input type="password" name="password" /></td>
+					</tr>
+					<tr>
+						<td><label></label></td>
+						<td><input type="submit" value="Sign Up" /></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

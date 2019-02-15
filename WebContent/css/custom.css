@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+#fh5co-menus {
+    padding: 3em 0 !important;
+}
+
+#fh5co-contact {
+    padding: 0em 0 !important;
+}
+
+.col-md-8.col-md-offset-2 {
+    padding: 2em;
+}
+
+.btn-primary.btn-outline{
+	float: right !important;
+}
+
+.row btnSphatloList{
+	padding-top: 1em;
+}
+
+.fh5co-menu-2 form input[type="submit"]{
+    padding: 1em;
+    background: transparent;
+    border: transparent;
+}
+
+.fh5co-menu-1 form input[type="submit"]{
+    padding: 1em;
+    background: transparent;
+    border: transparent;
+}
+
+.fh5co-menu-2 form {
+    padding: 1em;
+}
+
+.fh5co-menu-1 form {
+    display: unset;
+}
